@@ -1,128 +1,124 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,300&display=swap');
-:root{
-    --green-text: #00c771;
-    --green-color:  rgb(154, 241, 180);
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Montserrat:wght@200;300&display=swap');
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body{
-    font-family: tahoma;
-    margin: 0px;
-    padding: 0px;
-    background-color: #f8f8f8;
+  background-color: white;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 #menu{
-    height: 80px;
-    margin-top: -85px;
-    margin-left: 180px;
+  height: 80px;
+  margin-top: -85px;
+  margin-left: -130px;
 }
 #menu ul li { 
-    list-style: none;
-    display: inline;
-    margin: 10px;
-    font-size: 23px;
+  list-style: none;
+  display: inline;
+  margin: 10px;
+  font-size: 23px;
 }
 a{
-    font-size: 25px;
-    text-decoration: none;
-    color: var(--green-text);
+  font-size: 25px;
+  text-decoration: none;
+  color: #545454;
 }
 a:hover{
-    color: #545454;
+  color: #34a072;
 }
 #logo img{
-    margin-left: 20px;
-    height: 130px;
-    width: 130px;
-    border-radius: 100%;
+  margin-right: 1000px;
+  height: 130px;
+  width: 130px;
+  border-radius: 100%;
 }
-
+li:hover{
+  color: #34a072;
+}
 #menu2{
-    display: flex;
-    height: 90px;
-    width: 200px;
-    margin-top: -75px;
-    float: left;
-    margin-left: 80%;
+  display: flex;
+  height: 90px;
+  width: 200px;
+  margin-top: -78px;
+  float: left;
+  margin-left: 80%;
 }
 .fa-2x{
-    color: var(--green-text);
-    font-size: 23px;
-    margin: 0px 30px;
+  color: #545454;
+  font-size: 23px;
+  margin: 0px 20px;
 }
 .fa-2x:hover{
-    color: #545454;
+  color: #34a072;
 }
 
 #menu2 .nav1{
-    border-radius: 20px;
-    width: 180px;
-    height: 110px;
-    margin: 30px;
-    margin-left: -150px;
-    list-style: none;
-    text-align: center;
-    background-color: white;
+  border-radius: 20px;
+  width: 230px;
+  height: 120px;
+  margin: 30px;
+  margin-left: -80px;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  background-color: rgb(252, 213, 162);
 }
 #menu2 ul li{
-    text-align: center;
-    margin-top: 10px;
-}
-#menu2 a{
-    font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
 }
 .nav1{
-    display: none;
-    position: absolute;
+  display: none;
+  position: absolute;
 }
 #menu2 .nav1 li:hover{
-    color: var(--green-text);
+  color: #545454;
 }
 
 #menu2 .fa-phone:hover .nav1{
-    display: block;
+  display: block;
 }
 
 #menu2 .nav2{
-    border-radius: 20px;
-    width: 160px;
-    height: 80px;
-    margin-left: -120px;
-    list-style: none;
-    text-align: center;
-    background-color: white;
-    border: none;
-    color: var(--green-text);
+  border-radius: 20px;
+  width: 160px;
+  height: 60px;
+  margin-left: -120px;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  background-color: rgb(252, 213, 162);
 }
 
 .nav2{
-    display: none;
-    position: absolute;
+  display: none;
+  position: absolute;
 }
 
 #menu2 .fa-user-pen:hover .nav2{
-    display: block;
-    margin-top: 30px;
+  display: block;
+  margin-top: 30px;
 }
 
 #menu2 .nav2 li:hover{
-    color: #545454;
+  color: #545454;
 }
 
 button{
-    border: none;
-    font-size: 20px;
-    margin: -5px;
-    color: var(--green-text);
-    background-color: white;
+  background-color: antiquewhite;
+  font-size: 20px;
+  margin: -5px;
+  border-radius: 10px;
+  color: #34a072;
 }
 
 button:hover {
-    color: #545454;
+  color: #545454;
 }
 .data-container{
   height: 230px;
@@ -217,6 +213,7 @@ i{
   position: static;
   font-size: 30px;
   margin-top: 100px;
-  background-color: rgba(247, 197, 213, 0.468);
+  background-color: #34a072;
+  color: #fff;
   border-radius: 10px;
-}
+} 
