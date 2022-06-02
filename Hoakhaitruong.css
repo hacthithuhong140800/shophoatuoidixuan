@@ -148,8 +148,11 @@ button:hover {
 .icon_small{
     margin-top: -18%;
     margin-left: 140px;
+    display: none;
 }
-
+.sp_new:hover .icon_small{
+    display: block;
+}
 .icon_small i{
     color: rgb(249, 98, 98);
     font-size: 35px;
